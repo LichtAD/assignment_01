@@ -27,6 +27,8 @@ body {
 
 .banner_h1 {
     text-align: center;
+    font-size: 24px;
+    font-weight: 800;
 }
 
 .banner_p {
@@ -56,15 +58,20 @@ body {
 .web_dev_container {
     /* border: 2px solid red; */
     width: 1140px;
-    height: 1650px;
+    height: 1700px;
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 100px;
+    background-color: rgb(241, 241, 255);
 }
 
 .web_dev_h2 {
+    /* border: 2px solid blue; */
+    /* margin-top: 80px; */
     text-align: center;
-    margin-top: 80px;
+    font-size: 32px;
+    font-weight: 800;
+    padding-top: 80px;
 }
 
 .web_dev_p {
@@ -81,7 +88,7 @@ body {
     padding: 48px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     border-radius: 16px;
-
+    background-color: white;
     display: flex;
     /* justify-content: space-between;
     align-items: center; */
@@ -311,7 +318,7 @@ body {
     font-weight: 600;
 }
 
-.footer_icons{
+.footer_icons {
     /* border: 2px solid red; */
     width: 157px;
     height: 36px;
