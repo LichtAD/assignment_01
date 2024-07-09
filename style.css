@@ -8,7 +8,8 @@ body {
 
 .banner_container {
     background-image: url('/assets/Hero-bg.png');
-    width: 1440px;
+    /* width: 1440px; */
+    width: 100%;
     height: 652px;
     margin: 0 auto;
     margin-top: 50px;
@@ -123,23 +124,168 @@ body {
 
 /* inspiration starts */
 
-.inspiration_container{
-    border: 2px solid red;
+.inspiration_container {
+    /* border: 2px solid red; */
     width: 1140px;
     height: 775px;
     margin: 0 auto;
     margin-bottom: 100px;
 }
 
-.inspiration_container h2{
-    border: 2px solid blue;
+.inspiration_container h2 {
+    /* border: 2px solid blue; */
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.inspiration_container p {
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.yt_vdo {
+    /* border: 2px solid gold; */
+    padding: 32px;
+}
+
+/* inspiration ends */
+
+/* current_target_container starts */
+
+.current_target_container {
+    /* border: 2px solid red; */
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.current_target_container h2 {
     text-align: center;
 }
-.inspiration_container p{
-    border: 2px solid red;
+
+.current_target_container>p {
     text-align: center;
     margin-top: 24px;
     margin-bottom: 48px;
 }
 
-/* inspiration ends */
+.card_box_container {
+    display: flex;
+    height: 299px;
+    width: 1140px;
+}
+
+.card_box1 {
+    /* border: 2px solid blue; */
+    width: 33.33%;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.color_1 {
+    background-color: rgb(255, 250, 240);
+}
+
+.color_2 {
+    background-color: rgb(234, 241, 255);
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.color_3 {
+    background-color: rgb(255, 241, 241);
+}
+
+.card_box1 h4 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card_box1 p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card_box1 h5 {
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* current_target_container ends */
+
+/* support starts */
+
+.support_container {
+    width: 1140px;
+    height: 313px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+    color: white;
+    background-image: url(assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.support_container h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.support_container p {
+    font-size: 16px;
+    font-weight: 400;
+    /* margin-top: 16px; */
+    margin-bottom: 18px;
+}
+
+.support_msg_box {
+    /* border: 2px solid wheat; */
+    display: flex;
+}
+
+/* .support_input{
+    border: 2px solid aqua;
+} */
+
+.support_input_field {
+    font-size: 16px;
+    font-weight: 400;
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+    padding-left: 20px;
+}
+
+/* .support_btn {
+    border: 2px solid greenyellow;
+} */
+
+.btn_support_main {
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    margin-left: 16px;
+}
+
+/* support ends */
