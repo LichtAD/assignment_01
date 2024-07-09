@@ -52,6 +52,94 @@ body {
 
 /* web dev starts */
 
+.web_dev_container {
+    /* border: 2px solid red; */
+    width: 1140px;
+    height: 1650px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
+.web_dev_h2 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.web_dev_p {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.web_dev_first {
+    /* border: 2px solid rgb(98, 0, 255); */
+    width: 946px;
+    height: 336px;
+    margin: 0 auto;
+    margin-top: 48px;
+    padding: 48px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+}
+
+.first_content {
+    /* border: 2px solid firebrick; */
+    width: 70%;
+    /* padding-right: calc(530px - 48px); */
+}
+
+.first_content h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 10.5px;
+}
+
+.first_content p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 44px;
+}
+
+.btn_learn {
+    background: white;
+    width: 171px;
+    height: 47px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10.5px;
+}
+
+.first_img {
+    /* border: 2px solid rgb(242, 255, 0); */
+    width: 30%;
+}
 
 /* web dev ends */
+
+/* inspiration starts */
+
+.inspiration_container{
+    border: 2px solid red;
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.inspiration_container h2{
+    border: 2px solid blue;
+    text-align: center;
+}
+.inspiration_container p{
+    border: 2px solid red;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+/* inspiration ends */
